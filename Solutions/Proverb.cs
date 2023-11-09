@@ -1,6 +1,7 @@
 using System;
 using System.Linq;
 using System.Collections.Generic;
+
 public static class Proverb
 {
     public static string[] Recite(string[] subjects)
