@@ -7,6 +7,7 @@ public static class Proverb
     {
         if(subjects.Length == 0)
             return new string[0];
+        
         List<string> proverbs = new List<string>();
         for(int i=0; i < subjects.Length - 1; i++)
         {
