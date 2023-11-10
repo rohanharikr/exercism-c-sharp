@@ -1,3 +1,5 @@
+// https://exercism.org/tracks/csharp/exercises/darts
+
 using System;
 
 public static class Darts

@@ -1,3 +1,5 @@
+// https://exercism.org/tracks/csharp/exercises/scrabble-score
+
 using System;
 using System.Linq;
 using System.Collections.Generic;

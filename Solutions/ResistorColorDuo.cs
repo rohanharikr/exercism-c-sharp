@@ -1,3 +1,5 @@
+// https://exercism.org/tracks/csharp/exercises/resistor-color-duo
+
 using System;
 using System.Text;
 using System.Collections.Generic;

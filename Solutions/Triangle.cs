@@ -1,3 +1,5 @@
+// https://exercism.org/tracks/csharp/exercises/triangle
+
 using System;
 using System.Linq;
 
