@@ -25,7 +25,7 @@ public static class AtbashCipher
         int count = 0;
         foreach(char c in plainValueArr)
         {
-           if(!Char.IsLetter(c) && !Char.IsNumber(c))
+           if(!Char.IsLetterOrDigit(c))
                continue;
            int index = _alphabetsRev.IndexOf(c);
             if(count == 5)
@@ -48,7 +48,7 @@ public static class AtbashCipher
         StringBuilder str = new StringBuilder();
         foreach(char c in encodedValueArr)
         {
-           if(!Char.IsLetter(c) && !Char.IsNumber(c))
+           if(!Char.IsLetterOrDigit(c))
                continue;
            int index = _alphabets.IndexOf(c);
             if(index == -1)
